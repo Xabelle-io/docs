@@ -1,0 +1,55 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;400&family=VT323&display=swap");
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0a9f07;
+  --ifm-color-primary-dark: #098f06;
+  --ifm-color-primary-darker: #088706;
+  --ifm-color-primary-darkest: #076f05;
+  --ifm-color-primary-light: #0baf08;
+  --ifm-color-primary-lighter: #0bb708;
+  --ifm-color-primary-lightest: #0dcf09;
+  --ifm-code-font-size: 95%;
+
+  --ifm-color-primary: #067c03;
+  --ifm-footer-link-hover-color: #0dcf09;
+  --ifm-footer-background-color: #08110c;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #6a0dad;
+}
+
+html[data-theme="dark"] {
+  --ifm-background-color: #242526;
+  --ifm-color-primary: #0dcf09;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: 'VT323', monospace;
+  letter-spacing: 2px; */
+  font-family: 'Source Code Pro', monospace;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.hero .button {
+  --ifm-font-color-base: white;
+}
