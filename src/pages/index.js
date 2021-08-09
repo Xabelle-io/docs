@@ -75,7 +75,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Xabelle Documentation"
     >
       <header
         className={clsx("hero hero--primary", styles.heroBanner)}

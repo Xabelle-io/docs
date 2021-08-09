@@ -1,6 +1,6 @@
 module.exports = {
   title: "Xabelle Documentation",
-  tagline: "The Future of Finance is Green",
+  tagline: "The future cross chain on Binance Network",
   url: "https://docs.xabelle.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
